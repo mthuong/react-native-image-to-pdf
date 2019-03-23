@@ -20,7 +20,7 @@
 }
 
 // This RCT (React) "macro" exposes the current module to JavaScript
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(RNImageToPdf);
 
 RCT_EXPORT_METHOD(createPDFbyImages:(NSDictionary *)options
                   resolver:(RCTPromiseResolveBlock)resolve
