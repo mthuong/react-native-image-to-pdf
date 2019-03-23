@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "author" => "mthuong" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/mthuong/react-native-image-to-pdf.git" }
-  s.source_files  = "RNImageToPdf/**/*.{h,m}"
+  s.source_files  = "**/*.{h,m}"
   s.requires_arc = true
 
 
