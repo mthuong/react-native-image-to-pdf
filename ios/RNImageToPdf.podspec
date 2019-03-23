@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "mthuong" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/mthuong/RNImageToPdf.git" }
+  s.source       = { :git => "https://github.com/mthuong/react-native-image-to-pdf.git" }
   s.source_files  = "RNImageToPdf/**/*.{h,m}"
   s.requires_arc = true
 
